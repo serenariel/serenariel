@@ -1,0 +1,100 @@
+/*
+COLOR PALETTE
+https://coolors.co/112944-ddd1c7-5998c5-32746d-ffffff
+#112944 - Oxford Blue
+#DDD1C7 - Timberwolf
+#5998C5 - Carolina Blue
+#32746D - Myrtle Green
+#FFFFFF - White
+
+https://www.webfx.com/web-design/hex-to-rgb/
+*/
+
+
+/* Global styles
+------------------------------------*/
+body {
+  color: #000000;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+a {
+  color: #5998C5;
+}
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h1, h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  margin: 0;
+}
+
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+/* Profile
+------------------------------------*/
+header {
+  background: #112944;
+  color: #F7FFF7;
+}
+
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #F7FFF7;
+}
+
+.projects a {
+  color: #5998C5;
+}
+.projects .btn {
+  color: #FFFFFF;
+  background: #112944;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background: rgb(17,41,68, 90%);
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background: #A1C6D7;
+}
+
+
+/* Education
+------------------------------------*/
+
+
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #343434;
+  color: #F7FFF7;
+}
