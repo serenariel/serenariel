@@ -13,6 +13,14 @@ https://www.webfx.com/web-design/hex-to-rgb/
 
 /* Global styles
 ------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   color: #000000;
   margin: 0;
@@ -45,7 +53,8 @@ h1, h2 {
 }
 
 .content-wrap {
-  width: 800px;
+  max-width: 800px;
+  width: 85%;
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -86,7 +95,11 @@ header {
   background: #A1C6D7;
 }
 
-
+.job-item {
+  overflow: hidden;
+  border-bottom: 1px dashed #343434;
+  padding: 15px 0;
+}
 /* Education
 ------------------------------------*/
 
