@@ -96,6 +96,9 @@ header {
 }
 
 .job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
   overflow: hidden;
   border-bottom: 1px dashed #343434;
   padding: 15px 0;
@@ -107,7 +110,20 @@ header {
 
 /* Contact Info
 ------------------------------------*/
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+
 footer {
   background: #343434;
   color: #F7FFF7;
+  text-align: center;
 }
